@@ -1,0 +1,33 @@
+/* .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-image{
+    display: flex;
+    align-items: center;
+    width: 95vw;
+}
+.about-image img{
+    max-width: 100%;
+} */
+
+.about{
+    background-color: rgb(146, 214, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-image{
+    position: relative;
+    width: 80vw;
+}
+.about-image img{
+    max-width: 100%;
+}
+.about-text{
+    text-align: center;
+}

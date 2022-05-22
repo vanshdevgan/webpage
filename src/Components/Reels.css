@@ -1,0 +1,24 @@
+.reel-showcase{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.reel-show_text{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 24px;
+    max-width: 40%;
+    padding-right: 2rem;
+}
+.reel-img{
+    width: 90vw;
+}
+.reel-img img{
+    padding-top: 1rem;
+    max-width: 100%;
+}
+@media(max-width: 450px){
+    .reel-show_text{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+}
+.header > div{
+    padding: 1rem;
+}
+.g_play_logo{
+    width: 200px;
+}
+.g_play_logo:hover{
+    transition: 0.5s ease;
+    width: 210px;
+}
+.g_play_logo img{
+    max-width: 100%;
+}
+.conn_logo{
+    width: 300px;
+}
+.conn_logo img{
+    max-width: 100%;
+}
+
+@media(max-width: 1500px){
+    .header > div{
+        transform: scale(1);
+    }
+}

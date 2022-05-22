@@ -1,0 +1,26 @@
+.section{
+    /* height: 50vh; */
+    display: flex;
+    align-items: center;
+    background: url("../component-style/images/701fe5be1cd7ebc9e232e42cadf67432.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+}
+.center-img{
+    padding: 1rem;
+    position: relative;
+    width: 40vw;
+}
+.center-img img{
+    max-width: 100%;
+}
+.right-img{
+    padding: 1rem;
+    position: relative;
+    width: 40vw;
+}
+.right-img img{
+    max-width: 100%;
+}

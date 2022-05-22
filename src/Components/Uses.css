@@ -1,0 +1,66 @@
+.uses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../component-style/images/back-social.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.uses-text{
+    text-align: center;
+}
+
+.uses-img{
+    width: 80vw;
+}
+.uses-img img{
+    max-width: 100%;
+}
+.ways-to-apply{
+   height: 100px;
+   /* background-color: rebeccapurple; */
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+.ways-to-apply > div{
+    width: 30%;
+    height: 50px;
+    /* border: 2px solid black; */
+    transform: scale(0.7);
+    cursor: pointer;
+}
+.ways-to-apply > div:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+.chair{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.message2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_img{
+    width: 50px;
+}
+.user_img img{
+    max-width: 100%;
+}
+.chair_text, .user_text, .message_text{
+    font-size: 15px;
+    text-align: center;
+}
