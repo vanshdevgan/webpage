@@ -11,13 +11,13 @@ import Reels from './Components/Reels';
 import Market from './Components/Market';
 import Address from './Components/Address';
 import Footer from './Components/Footer';
-//import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from "react-router-dom";
 
 // function App() {
 //   return (
@@ -42,9 +42,7 @@ import {
   return (
     <BrowserRouter>
       <Routes>
-      <Route exact path="/legal/privacy-policy" element={<PrivacyPolicy/>} />
-        <Route path="/" element={<>
-        
+        <Route exact path="/" element={<>
       <Header/>
       <Motto/>
       <Features/>
@@ -61,6 +59,7 @@ import {
           <Route path="blogs" element={<Blogs />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
+        <Route exact path="/legal/privacy-policy" element={<PrivacyPolicy/>} />
       </Routes>
     </BrowserRouter>
   );
